@@ -1,8 +1,8 @@
 const Router = require("express").Router;
 const router = new Router();
-const config = require("./config");
+const config = require("../config/config");
 const axios = require("axios").default;
-const utilities = require("./utilities/utility");
+const utilities = require("../utilities/utility");
 
 router
   .route("/get_distance_and_time")
